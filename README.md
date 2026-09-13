@@ -9,7 +9,7 @@
 - **Especialidad:** QA (Quality Assurance) / Automation Engineering
 - **Fuente del proyecto:** Plataforma e-commerce de práctica libre (SauceDemo / Swag Labs)
 - **Link a la fuente original:** [SauceDemo](https://www.saucedemo.com/)
-- **Link al proyecto publicado:** [GitHub Repository URL]([https://github.com/tu-usuario/saucedemo-qa-suite-and-tracking-framework](https://github.com/GiottoNRG/saucedemo-qa-suite-and-tracking-framework.git))
+- **Link al proyecto publicado:** [GitHub Repository URL](https://github.com/GiottoNRG/saucedemo-qa-suite-and-tracking-framework.git)
 
 ---
 
