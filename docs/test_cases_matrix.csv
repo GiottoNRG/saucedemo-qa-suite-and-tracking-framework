@@ -1,0 +1,6 @@
+Test_ID,Module,Scenario,Preconditions,Steps,Expected_Result,Severity,Execution_Type,Status
+TC001,Auth,Login exitoso con usuario estándar,Página principal cargada,1. Ingresar usuario 'standard_user'\n2. Ingresar password 'secret_sauce'\n3. Clic en Login,Redirección a /inventory.html y visualización del catálogo,High,Automated,Passed
+TC002,Auth,Login fallido con usuario bloqueado,Página principal cargada,1. Ingresar usuario 'locked_out_user'\n2. Ingresar password 'secret_sauce'\n3. Clic en Login,Mensaje de error: 'Epic sadface: Sorry, this user has been locked out.',High,Automated,Passed
+TC003,Cart,Agregar producto al carrito,Usuario autenticado en catálogo,1. Clic en 'Add to cart' del primer ícono\n2. Verificar badge del carrito,El contador del carrito incrementa a 1,Medium,Automated,Passed
+TC004,Checkout,Completar flujo de compra exitoso,Producto en el carrito,1. Ir al carrito\n2. Clic en Checkout\n3. Llenar First Name, Last Name, Zip Code\n4. Clic en Continue\n5. Clic en Finish,Mensaje de confirmación: 'Thank you for your order!',Critical,Automated,Passed
+TC005,Checkout,Validación de campos obligatorios en Checkout,Producto en el carrito y en página Checkout,1. Dejar campos vacíos\n2. Clic en Continue,Mensaje de error: 'Error: First Name is required',High,Automated,Passed
