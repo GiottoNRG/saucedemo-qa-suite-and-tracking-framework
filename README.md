@@ -59,7 +59,7 @@ Este proyecto valida el flujo crítico de compra (autenticación, gestión de ca
 
 ```bash
 # 1. Clonar el repositorio
-git clone [https://github.com/tu-usuario/saucedemo-qa-suite-and-tracking-framework.git](https://github.com/tu-usuario/saucedemo-qa-suite-and-tracking-framework.git)
+git clone (https://github.com/GiottoNRG/saucedemo-qa-suite-and-tracking-framework.git)
 cd saucedemo-qa-suite-and-tracking-framework
 
 # 2. Crear entorno virtual e instalar dependencias
